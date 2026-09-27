@@ -1,0 +1,14 @@
+{
+  "name": "telegram-solana-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that shows stats for a public Solana wallet address.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
